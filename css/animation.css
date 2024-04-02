@@ -1,0 +1,311 @@
+.orbit-path-300 > .orbiting-circle:nth-child(8n+1) {
+    animation: orbit-300-clockwise-right 120s linear infinite;
+}
+
+.orbit-path-300 > .orbiting-circle:nth-child(8n+2) {
+    animation: orbit-300-anticlockwise-right 120s linear infinite;
+}
+
+.orbit-path-300 > .orbiting-circle:nth-child(8n+3) {
+    animation: orbit-300-clockwise-left 120s linear infinite;
+}
+
+.orbit-path-300 > .orbiting-circle:nth-child(8n+4) {
+    animation: orbit-300-anticlockwise-left 120s linear infinite;
+}
+
+.orbit-path-300 > .orbiting-circle:nth-child(8n+5) {
+    animation: orbit-300-clockwise-up 120s linear infinite;
+}
+
+.orbit-path-300 > .orbiting-circle:nth-child(8n+6) {
+    animation: orbit-300-anticlockwise-up 120s linear infinite;
+}
+
+.orbit-path-300 > .orbiting-circle:nth-child(8n+7) {
+    animation: orbit-300-clockwise-down 120s linear infinite;
+}
+
+.orbit-path-300 > .orbiting-circle:nth-child(8n+8) {
+    animation: orbit-300-anticlockwise-down 120s linear infinite;
+}
+
+@keyframes orbit-300-clockwise-right {
+    from {
+        transform: rotate(0deg) translateX(min(20vw, 20vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(min(20vw, 20vh)) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-300-anticlockwise-right {
+    from {
+        transform: rotate(0deg) translateX(min(20vw, 20vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg) translateX(min(20vw, 20vh)) rotate(360deg);
+    }
+}
+
+@keyframes orbit-300-clockwise-left {
+    from {
+        transform: rotate(0deg) translateX(min(20vw, -20vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(min(20vw, -20vh)) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-300-anticlockwise-left {
+    from {
+        transform: rotate(0deg) translateX(min(20vw, -20vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg) translateX(min(20vw, -20vh)) rotate(360deg);
+    }
+}
+
+@keyframes orbit-300-clockwise-up {
+    from {
+        transform: rotate(0deg) translateY(min(20vw, -20vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateY(min(20vw, -20vh)) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-300-anticlockwise-up {
+    from {
+        transform: rotate(0deg) translateY(min(20vw, -20vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg) translateY(min(20vw, -20vh)) rotate(360deg);
+    }
+}
+
+@keyframes done-clockwise-down {
+    from {
+        transform: rotate(0deg) translateY(min(20vw, 20vh) rotate(0deg));
+    }
+    to {
+        transform: rotate(360deg) translateY(min(20vw, 20vh) rotate(-360deg));
+    }
+}
+
+@keyframes orbit-300-anticlockwise-down {
+    from {
+        transform: rotate(0deg) translateY(min(20vw, 20vh) rotate(0deg));
+    }
+    to {
+        transform: rotate(-360deg) translateY(min(20vw, 20vh) rotate(360deg));
+    }
+}
+
+.orbit-path-500 > .orbiting-circle:nth-child(8n+1) {
+    animation: orbit-500-clockwise-right 120s linear infinite;
+}
+
+.orbit-path-500 > .orbiting-circle:nth-child(8n+2) {
+    animation: orbit-500-anticlockwise-right 120s linear infinite;
+}
+
+.orbit-path-500 > .orbiting-circle:nth-child(8n+3) {
+    animation: orbit-500-clockwise-left 120s linear infinite;
+}
+
+.orbit-path-500 > .orbiting-circle:nth-child(8n+4) {
+    animation: orbit-500-anticlockwise-left 120s linear infinite;
+}
+
+.orbit-path-500 > .orbiting-circle:nth-child(8n+5) {
+    animation: orbit-500-clockwise-up 120s linear infinite;
+}
+
+.orbit-path-500 > .orbiting-circle:nth-child(8n+6) {
+    animation: orbit-500-anticlockwise-up 120s linear infinite;
+}
+
+.orbit-path-500 > .orbiting-circle:nth-child(8n+7) {
+    animation: orbit-500-clockwise-down 120s linear infinite;
+}
+
+.orbit-path-500 > .orbiting-circle:nth-child(8n+8) {
+    animation: orbit-500-anticlockwise-down 120s linear infinite;
+}
+
+@keyframes orbit-500-clockwise-right {
+    from {
+        transform: rotate(0deg) translateX(min(32.5vw, 32.5vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(min(32.5vw, 32.5vh)) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-500-anticlockwise-right {
+    from {
+        transform: rotate(0deg) translateX(min(32.5vw, 32.5vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg) translateX(min(32.5vw, 32.5vh)) rotate(360deg);
+    }
+}
+
+@keyframes orbit-500-clockwise-left {
+    from {
+        transform: rotate(0deg) translateX(min(32.5vw, -32.5vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(min(32.5vw, -32.5vh)) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-500-anticlockwise-left {
+    from {
+        transform: rotate(0deg) translateX(min(32.5vw, -32.5vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg) translateX(min(32.5vw, -32.5vh)) rotate(360deg);
+    }
+}
+
+@keyframes orbit-500-clockwise-up {
+    from {
+        transform: rotate(0deg) translateY(min(32.5vw, -32.5vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateY(min(32.5vw, -32.5vh)) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-500-anticlockwise-up {
+    from {
+        transform: rotate(0deg) translateY(min(32.5vw, -32.5vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg) translateY(min(32.5vw, -32.5vh)) rotate(360deg);
+    }
+}
+
+@keyframes orbit-500-clockwise-down {
+    from {
+        transform: rotate(0deg) translateY(min(32.5vw, 32.5vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateY(min(32.5vw, 32.5vh)) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-500-anticlockwise-down {
+    from {
+        transform: rotate(0deg) translateY(min(32.5vw, 32.5vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg) translateY(min(32.5vw, 32.5vh)) rotate(360deg);
+    }
+}
+
+.orbit-path-700 > .orbiting-circle:nth-child(8n+1) {
+    animation: orbit-700-clockwise-right 120s linear infinite;
+}
+
+.orbit-path-700 > .orbiting-circle:nth-child(8n+2) {
+    animation: orbit-700-anticlockwise-right 120s linear infinite;
+}
+
+.orbit-path-700 > .orbiting-circle:nth-child(8n+3) {
+    animation: orbit-700-clockwise-left 120s linear infinite;
+}
+
+.orbit-path-700 > .orbiting-circle:nth-child(8n+4) {
+    animation: orbit-700-anticlockwise-left 120s linear infinite;
+}
+
+.orbit-path-700 > .orbiting-circle:nth-child(8n+5) {
+    animation: orbit-700-clockwise-up 120s linear infinite;
+}
+
+.orbit-path-700 > .orbiting-circle:nth-child(8n+6) {
+    animation: orbit-700-anticlockwise-up 120s linear infinite;
+}
+
+.orbit-path-700 > .orbiting-circle:nth-child(8n+7) {
+    animation: orbit-700-clockwise-down 120s linear infinite;
+}
+
+.orbit-path-700 > .orbiting-circle:nth-child(8n+8) {
+    animation: orbit-700-anticlockwise-down 120s linear infinite;
+}
+
+@keyframes orbit-700-clockwise-right {
+    from {
+        transform: rotate(0deg) translateX(min(45vw, 45vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(min(45vw, 45vh)) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-700-anticlockwise-right {
+    from {
+        transform: rotate(0deg) translateX(min(45vw, 45vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg) translateX(min(45vw, 45vh)) rotate(360deg);
+    }
+}
+
+@keyframes orbit-700-clockwise-left {
+    from {
+        transform: rotate(0deg) translateX(min(45vw, -45vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(min(45vw, -45vh)) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-700-anticlockwise-left {
+    from {
+        transform: rotate(0deg) translateX(min(45vw, -45vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg) translateX(min(45vw, -45vh)) rotate(360deg);
+    }
+}
+
+@keyframes orbit-700-clockwise-up {
+    from {
+        transform: rotate(0deg) translateY(min(45vw, -45vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateY(min(45vw, -45vh)) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-700-anticlockwise-up {
+    from {
+        transform: rotate(0deg) translateY(min(45vw, -45vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg) translateY(min(45vw, -45vh)) rotate(360deg);
+    }
+}
+
+@keyframes orbit-700-clockwise-down {
+    from {
+        transform: rotate(0deg) translateY(min(45vw, 45vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateY(min(45vw, 45vh)) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-700-anticlockwise-down {
+    from {
+        transform: rotate(0deg) translateY(min(45vw, 45vh)) rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg) translateY(min(45vw, 45vh)) rotate(360deg);
+    }
+}
