@@ -50,37 +50,37 @@
 
 @keyframes orbit-300-clockwise-left {
     from {
-        transform: rotate(0deg) translateX(min(20vw, -20vh)) rotate(0deg);
+        transform: rotate(0deg) translateX(min(20vw, 20vh)) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateX(min(20vw, -20vh)) rotate(-360deg);
+        transform: rotate(360deg) translateX(min(20vw, 20vh)) rotate(-360deg);
     }
 }
 
 @keyframes orbit-300-anticlockwise-left {
     from {
-        transform: rotate(0deg) translateX(min(20vw, -20vh)) rotate(0deg);
+        transform: rotate(0deg) translateX(min(20vw, 20vh)) rotate(0deg);
     }
     to {
-        transform: rotate(-360deg) translateX(min(20vw, -20vh)) rotate(360deg);
+        transform: rotate(-360deg) translateX(min(20vw, 20vh)) rotate(360deg);
     }
 }
 
 @keyframes orbit-300-clockwise-up {
     from {
-        transform: rotate(0deg) translateY(min(20vw, -20vh)) rotate(0deg);
+        transform: rotate(0deg) translateY(min(20vw, 20vh)) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateY(min(20vw, -20vh)) rotate(-360deg);
+        transform: rotate(360deg) translateY(min(20vw, 20vh)) rotate(-360deg);
     }
 }
 
 @keyframes orbit-300-anticlockwise-up {
     from {
-        transform: rotate(0deg) translateY(min(20vw, -20vh)) rotate(0deg);
+        transform: rotate(0deg) translateY(min(20vw, 20vh)) rotate(0deg);
     }
     to {
-        transform: rotate(-360deg) translateY(min(20vw, -20vh)) rotate(360deg);
+        transform: rotate(-360deg) translateY(min(20vw, 20vh)) rotate(360deg);
     }
 }
 
@@ -154,37 +154,37 @@
 
 @keyframes orbit-500-clockwise-left {
     from {
-        transform: rotate(0deg) translateX(min(32.5vw, -32.5vh)) rotate(0deg);
+        transform: rotate(0deg) translateX(min(32.5vw, 32.5vh)) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateX(min(32.5vw, -32.5vh)) rotate(-360deg);
+        transform: rotate(360deg) translateX(min(32.5vw, 32.5vh)) rotate(-360deg);
     }
 }
 
 @keyframes orbit-500-anticlockwise-left {
     from {
-        transform: rotate(0deg) translateX(min(32.5vw, -32.5vh)) rotate(0deg);
+        transform: rotate(0deg) translateX(min(32.5vw, 32.5vh)) rotate(0deg);
     }
     to {
-        transform: rotate(-360deg) translateX(min(32.5vw, -32.5vh)) rotate(360deg);
+        transform: rotate(-360deg) translateX(min(32.5vw, 32.5vh)) rotate(360deg);
     }
 }
 
 @keyframes orbit-500-clockwise-up {
     from {
-        transform: rotate(0deg) translateY(min(32.5vw, -32.5vh)) rotate(0deg);
+        transform: rotate(0deg) translateY(min(32.5vw, 32.5vh)) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateY(min(32.5vw, -32.5vh)) rotate(-360deg);
+        transform: rotate(360deg) translateY(min(32.5vw, 32.5vh)) rotate(-360deg);
     }
 }
 
 @keyframes orbit-500-anticlockwise-up {
     from {
-        transform: rotate(0deg) translateY(min(32.5vw, -32.5vh)) rotate(0deg);
+        transform: rotate(0deg) translateY(min(32.5vw, 32.5vh)) rotate(0deg);
     }
     to {
-        transform: rotate(-360deg) translateY(min(32.5vw, -32.5vh)) rotate(360deg);
+        transform: rotate(-360deg) translateY(min(32.5vw, 32.5vh)) rotate(360deg);
     }
 }
 
@@ -258,37 +258,37 @@
 
 @keyframes orbit-700-clockwise-left {
     from {
-        transform: rotate(0deg) translateX(min(45vw, -45vh)) rotate(0deg);
+        transform: rotate(0deg) translateX(min(45vw, 45vh)) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateX(min(45vw, -45vh)) rotate(-360deg);
+        transform: rotate(360deg) translateX(min(45vw, 45vh)) rotate(-360deg);
     }
 }
 
 @keyframes orbit-700-anticlockwise-left {
     from {
-        transform: rotate(0deg) translateX(min(45vw, -45vh)) rotate(0deg);
+        transform: rotate(0deg) translateX(min(45vw, 45vh)) rotate(0deg);
     }
     to {
-        transform: rotate(-360deg) translateX(min(45vw, -45vh)) rotate(360deg);
+        transform: rotate(-360deg) translateX(min(45vw, 45vh)) rotate(360deg);
     }
 }
 
 @keyframes orbit-700-clockwise-up {
     from {
-        transform: rotate(0deg) translateY(min(45vw, -45vh)) rotate(0deg);
+        transform: rotate(0deg) translateY(min(45vw, 45vh)) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateY(min(45vw, -45vh)) rotate(-360deg);
+        transform: rotate(360deg) translateY(min(45vw, 45vh)) rotate(-360deg);
     }
 }
 
 @keyframes orbit-700-anticlockwise-up {
     from {
-        transform: rotate(0deg) translateY(min(45vw, -45vh)) rotate(0deg);
+        transform: rotate(0deg) translateY(min(45vw, 45vh)) rotate(0deg);
     }
     to {
-        transform: rotate(-360deg) translateY(min(45vw, -45vh)) rotate(360deg);
+        transform: rotate(-360deg) translateY(min(45vw, 45vh)) rotate(360deg);
     }
 }
 
