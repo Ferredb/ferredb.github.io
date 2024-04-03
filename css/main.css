@@ -1,3 +1,4 @@
+/* Default */
 body {
     display: flex;
     justify-content: center;
@@ -8,6 +9,7 @@ body {
     background-color: #272727;
 }
 
+/* Outer Circle (To Do) */
 .orbit-path-700 {
     display: grid;
     position: absolute;
@@ -21,6 +23,7 @@ body {
     border: 2px dashed #ffffff2d;
 }
 
+/* Middle Circle (In Progress) */
 .orbit-path-500 {
     display: grid;
     position: absolute;
@@ -34,6 +37,7 @@ body {
     border: 2px dashed #ffffff2d;
 }
 
+/* Inner Circle (Done) */
 .orbit-path-300 {
     display: grid;
     position: absolute;
@@ -47,6 +51,7 @@ body {
     border: 2px dashed #ffffff2d;
 }
 
+/* Center Image */
 .center-image {
     width: min(15vw, 15vh);
     height: min(15vw, 15vh);
@@ -61,6 +66,11 @@ body {
     border-radius: 50%;
 }
 
+.center-image:hover {
+    scale: 1.1;
+}
+
+/* Done */
 .status-300 {
     position: relative;
     font-size: min(2vw, 2vh);
@@ -71,6 +81,7 @@ body {
     bottom: 33%;
 }
 
+/* In Progress */
 .status-500 {
     position: relative;
     font-size: min(2vw, 2vh);
@@ -81,6 +92,7 @@ body {
     bottom: 39%;
 }
 
+/* To Do */
 .status-700 {
     position: relative;
     font-size: min(2vw, 2vh);
@@ -91,6 +103,7 @@ body {
     bottom: 43%;
 }
 
+/* Orbits */
 .orbiting-circle img {
     width: 100%;
     height: auto;
