@@ -7,6 +7,7 @@ body {
     width: auto;
     margin: 0;
     background-color: #272727;
+    flex-direction: column;
 }
 
 /* Outer Circle (To Do) */
@@ -127,4 +128,61 @@ body {
 
 .orbiting-circle:hover {
     padding: 12px;
+}
+
+/* Nav */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: min(14vw, 14vh);
+    background-color: #272727;
+}
+
+.logo  {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 80%;
+    width: auto;
+    margin-left: 10px;
+}
+
+.logo-img > a > img {
+    height: 100%;
+    width: auto;
+}
+
+.title {
+    font-size: min(2vw, 2vh);
+    font-family: sans-serif;
+    color: #7a7a7a;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.links {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    height: 40%;
+    width: auto;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.link > a > img {
+    height: 100%;
+    width: auto;
 }
